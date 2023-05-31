@@ -72,7 +72,7 @@
     justify-content: center;
     width: 100%;
     position: absolute;
-    top: -800%; // goes to left with 110% and dissaperas
+    top: -800%;
     opacity: 1;
     transition: all 0.5s ease;
 
@@ -85,7 +85,7 @@
 
   .active {
     background-color: #181818;
-    top: 80px;
+    top: 60px;
     opacity: 1;
     z-index: 1;
     transition: all 0.5s ease;
