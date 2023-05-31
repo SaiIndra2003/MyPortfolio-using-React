@@ -1,6 +1,7 @@
+import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 
+import Navbar from "./components/navBar/index";
 import Home from "./containers/home/index";
 import About from "./containers/about/index";
 import Portfolio from "./containers/portfolio/index";
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       {/* Particles */}
       {/* Nav bar */}
+      <Navbar />
       {/* Main page */}
       <Routes>
         {/* Create routes */}
